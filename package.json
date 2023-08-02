@@ -1,0 +1,30 @@
+{
+    "name": "uisystem",
+    "version": "1.0.0",
+    "description": "my new ECS game project",
+    "main": "index.js",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "preview": "vite preview"
+    },
+    "keywords": [],
+    "author": "Mookie",
+    "license": "ISC",
+    "dependencies": {
+        "@peasy-lib/peasy-assets": "latest",
+        "@peasy-lib/peasy-engine": "latest",
+        "@peasy-lib/peasy-input": "latest",
+        "@peasy-lib/peasy-states": "latest",
+        "@peasy-lib/peasy-ui": "latest",
+        "lodash": "^4.17.21",
+        "uuid": "latest"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.196",
+        "@types/node": "^20.4.5",
+        "json": "latest",
+        "typescript": "latest",
+        "vite": "latest"
+    }
+}
